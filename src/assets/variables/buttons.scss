@@ -1,0 +1,58 @@
+/* Style for all buttons */
+.all-btns {
+    padding: 1%;
+    border-radius: 5px;
+    cursor: pointer;
+
+    /* Animation */
+    transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    -webkit-transition: all 0.1s;
+}
+
+/* Buttons next, previous */
+.main-modal-btns {
+    background-color: #fff;
+    border: 3px #952c8b solid;
+
+    &:hover { box-shadow: 0 0 2px 2px #cd50c0; }
+}
+
+/* Button to close the modal */
+.leave-btn {
+    background-color: #9a9a9a;
+    color: #fff;
+    opacity: 0.7;
+    border: none;
+
+    &:hover { 
+        opacity: 1; 
+        background-color: #ff0000; 
+    }
+}
+
+/* Button to open the modal */
+.show-input-types-btn {
+    font-size: 1.3rem;
+    font-weight: 600;
+    background-color: #fff;
+}
+
+/* Button for <input type='reset'> */
+.reset-form-btn {
+    background-color: #218380;
+    color: #fff;
+    opacity: 0.7;
+    border: none;
+
+    &:hover { 
+        opacity: 1; 
+    }
+}
+
+input {
+    padding: 0.5%;
+    margin: 0 1% 1% 0;
+    border-radius: 5px;
+}

@@ -1,0 +1,44 @@
+.modal-body-backdrop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    z-index: 5000;
+    position: fixed;
+    background-color: #0d1321;
+    border: none;
+    left: 0;
+    top: 0;
+    backdrop-filter: blur(3px);
+}
+
+.modal-body {
+    display: grid;
+    max-width: 80vw;
+    width: 45vmax;
+    min-height: 40vh;
+    height: auto;
+    z-index: 5001;
+    position: relative;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-top: #8da9c4 10px solid;
+    border-radius: 15px;
+    margin: auto;
+    padding: 3%;
+    cursor: pointer;
+}
+
+.btns-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.5rem;
+}
